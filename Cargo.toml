@@ -1,6 +1,6 @@
 [package]
 name = "psqr"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["divinerapier"]
 description = "The P-Square Algorithm for Dynamic Calculation of Percentiles and Histograms without Storing Observations"
