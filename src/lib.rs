@@ -113,7 +113,7 @@ impl P2 {
                 _ => self.heights.sort_by(|a, b| a.partial_cmp(b).unwrap()),
             }
             let rank = (self.quantile * l as f64) as usize;
-            return self.heights[rank];
+            return self.heights[rank.min(l - 1)];
         }
         self.heights[2]
     }
